@@ -39,5 +39,14 @@ score += 1
 else:
 print("Wrong! Answer is magnitude and direction")
 
+# Question 5 (Group Theory)
+answer = input("\n5) A group must have an identity element. (a) True (b) False : ")
+
+if answer == "a":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong! Answer is True")
+
 # Final score
 print("\nYour score:", score, "/ 4")
