@@ -1,4 +1,3 @@
-
 score = 0
 
 print("Math Quiz")
@@ -31,5 +30,14 @@ score += 1
 else:
 print("Wrong! Answer is 2x")
 
+# Question 4 (Vector)
+answer = input("\n4) A vector has (a) magnitude only (b) direction only (c) magnitude and direction : ")
+
+if answer == "c":
+print("Correct!")
+score += 1
+else:
+print("Wrong! Answer is magnitude and direction")
+
 # Final score
-print("\nYour score:", score, "/ 3")
+print("\nYour score:", score, "/ 4")
